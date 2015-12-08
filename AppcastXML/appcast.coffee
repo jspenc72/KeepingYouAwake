@@ -12,6 +12,25 @@ appcast.setChannelConfiguration
     link: "https://newmarcel.github.io/KeepingYouAwake/appcast.xml"
     description: "The most recent changes for KeepingYouAwake."
 
+# Version 1.3.1
+appcast.addItem
+    title: "Version 1.3.1: Updater and Icon Fixes"
+    description: '''
+    <ul>
+    <li><p>Fixed Sparkle Updates <em>(Broken thanks to App Transport Security in OS X 10.11 and GitHub disabling HTTPS for pages)</em> If you know someone with Version 1.3.0, please let them know that 1.3.1 is available and can be downloaded manually to receive future updates. This is a nightmare come true… 😱</p></li>
+    <li><p>Fixed rendering for custom icons: They are now rendered as template images</p></li>
+    <li><p>Added advanced settings to disable the blue highlight rectangle on click. Enable it with <em>(replace YES with NO to disable it again)</em>:</p>
+
+    <pre><code>defaults write info.marcel-dierkes.KeepingYouAwake info.marcel-dierkes.KeepingYouAwake.MenuBarIconHighlightDisabled -bool YES
+    </code></pre></li>
+    </ul>
+    '''
+    date: new Date("2015-12-08 10:00:00")
+    file_url: 'https://github.com/newmarcel/KeepingYouAwake/releases/download/1.3.1/KeepingYouAwake-1.3.1.zip'
+    file_length: 1487664
+    file_version: '131'
+    file_short_version: '1.3.1'
+
 # Version 1.3
 appcast.addItem
     title: "Version 1.3: Scripting and Custom Icons Update"
