@@ -6,6 +6,24 @@
 		<description>The most recent changes for KeepingYouAwake.</description>
 		<language>en</language>
 		<item>
+			<title><![CDATA[Version 1.4.0: Preferences Update]]></title>
+			<description><![CDATA[<ul>
+<li>Added a preferences window that replaces seldom used menu items and surfaces advanced and experimental preferences</li>
+<li>You can now set the default activation duration for the menu bar icon in preferences</li>
+<li>Removed the advanced preference for <code>info.marcel-dierkes.KeepingYouAwake.PreventSleepOnACPower</code></li>
+<li>Added an advanced preference to allow display sleep while still preventing system sleep (<a href="https://github.com/newmarcel/KeepingYouAwake/issues/25">Issue #25</a>)</li>
+<li>Ability to set a battery level on MacBooks where the app will deactivate itself (<a href="https://github.com/newmarcel/KeepingYouAwake/issues/24">Issue #24</a>)
+<ul>
+<li><em>Thank you <a href="https://github.com/timbru31">timbru31</a> for the suggestion!</em></li>
+</ul></li>
+<li>Upgraded to Sparkle 1.14.0 to fix potential security issues</li>
+</ul>
+]]></description>
+			<pubDate>Sat, 16 Apr 2016 12:00:00 GMT</pubDate>
+			<enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.4.0/KeepingYouAwake-1.4.0.zip" length="1591141" type="application/octet-stream" sparkle:version="140" sparkle:shortVersionString="1.4.0">
+			</enclosure>
+		</item>
+		<item>
 			<title><![CDATA[Version 1.4.0beta1: Preferences Beta]]></title>
 			<description><![CDATA[<ul>
 <li>Added a preferences window that replaces seldom used menu items and surfaces advanced and experimental preferences</li>
