@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA12BA271DB2C7490031DC61 /* KYACaffeinate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA12BA201DB2C7490031DC61 /* KYACaffeinate.framework */; };
+		DA12BA281DB2C7490031DC61 /* KYACaffeinate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA12BA201DB2C7490031DC61 /* KYACaffeinate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA12BA311DB2C7590031DC61 /* KYACaffeinateTask.h in Headers */ = {isa = PBXBuildFile; fileRef = DA12BA2C1DB2C7590031DC61 /* KYACaffeinateTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA12BA321DB2C7590031DC61 /* KYACaffeinateTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DA12BA2D1DB2C7590031DC61 /* KYACaffeinateTask.m */; };
+		DA12BA331DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = DA12BA2E1DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA12BA341DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DA12BA2F1DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.m */; };
+		DA12BA391DB2C7F60031DC61 /* KYACaffeinate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA12BA381DB2C7F20031DC61 /* KYACaffeinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2691D21B8231C700B15779 /* KYAMenuBarIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2691D11B8231C700B15779 /* KYAMenuBarIcon.m */; };
 		DA46C1EE1BDCDFB00050357C /* NSUserDefaults+Keys.m in Sources */ = {isa = PBXBuildFile; fileRef = DA46C1ED1BDCDFB00050357C /* NSUserDefaults+Keys.m */; };
 		DA51E7DE1C2562A2008AA96C /* KYAActivationDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = DA51E7DD1C2562A2008AA96C /* KYAActivationDuration.m */; };
@@ -33,6 +40,16 @@
 		DAD2725B1ACB266800CDD620 /* KYAEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD2725A1ACB266800CDD620 /* KYAEventHandler.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DA12BA251DB2C7490031DC61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA637B3119F14693004C8838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA12BA1F1DB2C7490031DC61;
+			remoteInfo = KYACaffeinate;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		DA8CB49F1A5767CC00BC6F73 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -40,6 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DA12BA281DB2C7490031DC61 /* KYACaffeinate.framework in Embed Frameworks */,
 				DA8CB49E1A5767CC00BC6F73 /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -52,6 +70,14 @@
 		2EB97EEE1D69FD8900BA63A0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EB97EEF1D69FD8900BA63A0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Preferences.strings; sourceTree = "<group>"; };
 		2EB97EF01D69FD8900BA63A0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		DA12BA201DB2C7490031DC61 /* KYACaffeinate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYACaffeinate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA12BA2C1DB2C7590031DC61 /* KYACaffeinateTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYACaffeinateTask.h; sourceTree = "<group>"; };
+		DA12BA2D1DB2C7590031DC61 /* KYACaffeinateTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYACaffeinateTask.m; sourceTree = "<group>"; };
+		DA12BA2E1DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYACaffeinateTaskConfiguration.h; sourceTree = "<group>"; };
+		DA12BA2F1DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYACaffeinateTaskConfiguration.m; sourceTree = "<group>"; };
+		DA12BA301DB2C7590031DC61 /* KYACaffeinateTaskConfiguration+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KYACaffeinateTaskConfiguration+Private.h"; sourceTree = "<group>"; };
+		DA12BA371DB2C7F20031DC61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA12BA381DB2C7F20031DC61 /* KYACaffeinate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYACaffeinate.h; sourceTree = "<group>"; };
 		DA2691D01B8231C700B15779 /* KYAMenuBarIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYAMenuBarIcon.h; sourceTree = "<group>"; };
 		DA2691D11B8231C700B15779 /* KYAMenuBarIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYAMenuBarIcon.m; sourceTree = "<group>"; };
 		DA46C1EC1BDCDFB00050357C /* NSUserDefaults+Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Keys.h"; sourceTree = "<group>"; };
@@ -101,10 +127,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DA12BA1C1DB2C7490031DC61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA637B3619F14693004C8838 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA12BA271DB2C7490031DC61 /* KYACaffeinate.framework in Frameworks */,
 				DA8CB49D1A5767CC00BC6F73 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +146,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA12BA211DB2C7490031DC61 /* KYACaffeinate */ = {
+			isa = PBXGroup;
+			children = (
+				DA12BA2C1DB2C7590031DC61 /* KYACaffeinateTask.h */,
+				DA12BA2D1DB2C7590031DC61 /* KYACaffeinateTask.m */,
+				DA12BA2E1DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.h */,
+				DA12BA301DB2C7590031DC61 /* KYACaffeinateTaskConfiguration+Private.h */,
+				DA12BA2F1DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.m */,
+				DA12BA361DB2C7F20031DC61 /* Supporting Files */,
+			);
+			path = KYACaffeinate;
+			sourceTree = "<group>";
+		};
+		DA12BA361DB2C7F20031DC61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA12BA371DB2C7F20031DC61 /* Info.plist */,
+				DA12BA381DB2C7F20031DC61 /* KYACaffeinate.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		DA2691CF1B8230AB00B15779 /* MenuBar Icon */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,8 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				DA637B3B19F14693004C8838 /* KeepingYouAwake */,
-				DA66CF9F1A12A7D700336CDC /* Frameworks */,
-				DA637B3C19F14693004C8838 /* Supporting Files */,
+				DA12BA211DB2C7490031DC61 /* KYACaffeinate */,
 				DA637B3A19F14693004C8838 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				DA637B3919F14693004C8838 /* KeepingYouAwake.app */,
+				DA12BA201DB2C7490031DC61 /* KYACaffeinate.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +276,8 @@
 				DA4919C51ACFFF8D00D44F6A /* Event Handler */,
 				DA4919C61ACFFF9600D44F6A /* Extensions */,
 				DAC322C91C65199300DF8B63 /* Resources */,
+				DA66CF9F1A12A7D700336CDC /* Frameworks */,
+				DA637B3C19F14693004C8838 /* Supporting Files */,
 			);
 			path = KeepingYouAwake;
 			sourceTree = "<group>";
@@ -234,7 +292,6 @@
 				DA637B3E19F14693004C8838 /* main.m */,
 			);
 			name = "Supporting Files";
-			path = KeepingYouAwake;
 			sourceTree = "<group>";
 		};
 		DA66CF9F1A12A7D700336CDC /* Frameworks */ = {
@@ -243,7 +300,6 @@
 				DA7931C31A575C6000B6DEC4 /* Sparkle.framework */,
 			);
 			name = Frameworks;
-			path = KeepingYouAwake;
 			sourceTree = "<group>";
 		};
 		DA82B1111C2422F600FA46E0 /* Preferences */ = {
@@ -268,7 +324,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		DA12BA1D1DB2C7490031DC61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA12BA331DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.h in Headers */,
+				DA12BA311DB2C7590031DC61 /* KYACaffeinateTask.h in Headers */,
+				DA12BA391DB2C7F60031DC61 /* KYACaffeinate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		DA12BA1F1DB2C7490031DC61 /* KYACaffeinate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA12BA2B1DB2C7490031DC61 /* Build configuration list for PBXNativeTarget "KYACaffeinate" */;
+			buildPhases = (
+				DA12BA1B1DB2C7490031DC61 /* Sources */,
+				DA12BA1C1DB2C7490031DC61 /* Frameworks */,
+				DA12BA1D1DB2C7490031DC61 /* Headers */,
+				DA12BA1E1DB2C7490031DC61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYACaffeinate;
+			productName = KYACaffeinate;
+			productReference = DA12BA201DB2C7490031DC61 /* KYACaffeinate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DA637B3819F14693004C8838 /* KeepingYouAwake */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA637B5619F14694004C8838 /* Build configuration list for PBXNativeTarget "KeepingYouAwake" */;
@@ -282,6 +369,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DA12BA261DB2C7490031DC61 /* PBXTargetDependency */,
 			);
 			name = KeepingYouAwake;
 			productName = KeepingYouAwake;
@@ -297,6 +385,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Marcel Dierkes";
 				TargetAttributes = {
+					DA12BA1F1DB2C7490031DC61 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
 					DA637B3819F14693004C8838 = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = 5KESHV9W85;
@@ -320,11 +412,19 @@
 			projectRoot = "";
 			targets = (
 				DA637B3819F14693004C8838 /* KeepingYouAwake */,
+				DA12BA1F1DB2C7490031DC61 /* KYACaffeinate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DA12BA1E1DB2C7490031DC61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA637B3719F14693004C8838 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,6 +459,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DA12BA1B1DB2C7490031DC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA12BA341DB2C7590031DC61 /* KYACaffeinateTaskConfiguration.m in Sources */,
+				DA12BA321DB2C7590031DC61 /* KYACaffeinateTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA637B3519F14693004C8838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +492,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA12BA261DB2C7490031DC61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA12BA1F1DB2C7490031DC61 /* KYACaffeinate */;
+			targetProxy = DA12BA251DB2C7490031DC61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DA54C1111D69C20F00AF9E9D /* Preferences.storyboard */ = {
@@ -428,6 +545,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DA12BA291DB2C7490031DC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "KYACaffeinate/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.KYACaffeinate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA12BA2A1DB2C7490031DC61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "KYACaffeinate/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.KYACaffeinate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DA637B5419F14694004C8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAD272581ACB21D000CDD620 /* Configuration.xcconfig */;
@@ -592,6 +765,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DA12BA2B1DB2C7490031DC61 /* Build configuration list for PBXNativeTarget "KYACaffeinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA12BA291DB2C7490031DC61 /* Debug */,
+				DA12BA2A1DB2C7490031DC61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DA637B3419F14693004C8838 /* Build configuration list for PBXProject "KeepingYouAwake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
